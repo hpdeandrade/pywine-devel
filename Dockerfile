@@ -1,4 +1,4 @@
-FROM tobix/wine:stable
+FROM tobix/wine:devel
 LABEL org.opencontainers.image.authors="Tobias Gruetzmacher <tobias-docker@23.gs>"
 
 ENV WINEDEBUG=-all
